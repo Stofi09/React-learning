@@ -1,11 +1,10 @@
 import React from 'react'
 import "./Features"
 
-export const Features = () => {
-  return 
-  (
-    <div>Features
-
-    </div>
+const Features = () => {
+  return (
+    <div>Features</div>
   )
 }
+
+export default Features

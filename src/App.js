@@ -5,9 +5,12 @@ import {CTA} from "./components/cta/CTA"
 import {Feature} from "./components/feature/Feature"
 import {Navbar} from './components/navbar/Navbar'
 
+import { Footer, Blog, Features, Header } from './containers'
+
 export const App = () => {
   return (
     <div>
+      <Footer/>
       <CTA/>
       <Feature/>
       <Navbar/>
