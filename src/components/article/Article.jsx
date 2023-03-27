@@ -1,8 +1,11 @@
 import React from 'react'
 import "./Article";
 
-export const Article = () => {
+
+const Article = () => {
   return (
     <div>Article</div>
   )
 }
+
+export default Article
